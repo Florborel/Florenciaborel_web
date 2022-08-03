@@ -16,6 +16,7 @@ header{
     justify-content: space-around;
     list-style-type: none;
     width: 100%;
+
     
     
 
@@ -25,8 +26,12 @@ header{
     display: inline-block;
     text-decoration: none;
     margin: 2rem
+
+    
+    
     
 }
+
 
 h1{ 
     color: midnightblue;
@@ -47,3 +52,4 @@ footer{
     text-align: center;
   
 }
+
