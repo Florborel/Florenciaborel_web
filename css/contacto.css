@@ -7,8 +7,31 @@ h1{
     font-size: 30px;
     text-align: center;
 }
+header{
 
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    width: 100%;
+}
 
+.menu{
+    
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 2rem
+    
+}
+ul{
+    width: 100%;
+}
 div{
     align-content: center;
 }
