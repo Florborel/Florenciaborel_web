@@ -8,6 +8,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: aliceblue;
+    width: 100%;
 
 }
 
@@ -16,40 +17,54 @@ header{
     justify-content: space-around;
     list-style-type: none;
     width: 100%;
-
-    
-    
-
 }
+
+
 
 .menu li{
     display: inline-block;
     text-decoration: none;
     margin: 2rem
-
-    
-    
     
 }
 
+ul{
+    width: 100%;
+}
 
 h1{ 
     color: midnightblue;
     font-size: 30px;
     text-align: center;
+    padding-top: 30px;
 }
 
-img{height: 300px
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+ 
 }
+
+
 
 div{
     align-content: center;
 }
 
+#Padre{
+
+    height: 100px;
+
+}
+
+
 footer{
     color: midnightblue;
     font-size: 20px;
     text-align: center;
-  
+
 }
 
