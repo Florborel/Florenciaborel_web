@@ -32,26 +32,68 @@ ul{
     width: 100%;
 }
 
-h1{ 
-    color: midnightblue;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 30px;
-}
+
 
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
     justify-content: center;
  
 }
 
 
+#imagenpesas{
+
+    height: 50px;
+    width: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 
 div{
     align-content: center;
+}
+
+.containerplanes{  
+
+padding-top: 100px;
+
+}
+
+.contenedorTarjeta {
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 10px;
+    border-width: 3px;
+    border-color: #7a47e7;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #619db1;
+    color:ghostwhite
+    
+}
+.tarjeta:hover {
+    transition: all 1s;
+    transform: scale(1.2);
+  }
+  
+.tarjeta img {
+    margin: 20px;
+    width: 90%;
+}
+
+.bajada {
+    margin: 20px;
 }
 
 #Padre{
@@ -60,11 +102,32 @@ div{
 
 }
 
+.titulo {
+
+    position: absolute;
+    display: flex;
+    color: #ecf3f4;
+    top: 550px;
+    width: 0px;
+    padding-left: 30px;
+    font-size: 50px;
+
+}
+
+.imagenTitulo {
+
+    display: flex;
+    top: 0px;
+    
+
+}
 
 footer{
-    color: midnightblue;
+    color:midnightblue;
     font-size: 20px;
     text-align: center;
+    padding-top: 300px;
+    
 
 }
 
