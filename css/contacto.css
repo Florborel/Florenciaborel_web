@@ -6,6 +6,7 @@ h1{
     color: midnightblue;
     font-size: 30px;
     text-align: center;
+    padding-top: 50px;
 }
 header{
 
@@ -29,16 +30,34 @@ header{
     margin: 2rem
     
 }
+
+.menu li a{
+    text-decoration: none;
+}
+
 ul{
     width: 100%;
 }
 div{
     align-content: center;
+
 }
 
+.formulario{
+
+    padding-top: 100px;
+
+}
+
+
+
+
+    
 footer{
-    color: midnightblue;
+    color:midnightblue;
     font-size: 20px;
     text-align: center;
-  
+    padding-top: 300px;
+    
+
 }
