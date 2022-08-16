@@ -1,0 +1,24 @@
+.menu{
+    
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    width: 100%;
+    ul{
+        width: 100%;
+        li{
+            display: inline-block;
+            text-decoration: none;
+            margin: 2rem;
+            a{
+                text-decoration: none;
+            }
+            
+            
+        }
+    }
+
+}
+
+
+

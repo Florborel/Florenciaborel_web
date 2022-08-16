@@ -1,3 +1,9 @@
+footer {
+  color: midnightblue;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 300px; }
+
 body {
   background-color: #bbedf4; }
 
@@ -8,36 +14,33 @@ header {
   background-color: aliceblue;
   width: 100%; }
 
-.menu {
-  justify-content: space-around;
-  list-style-type: none;
-  text-decoration: none;
-  width: 100%; }
+h1 {
+  color: midnightblue;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px; }
 
-.menu li {
-  display: inline-block;
-  text-decoration: none;
-  margin: 2rem; }
-
-.menu li a {
-  text-decoration: none; }
-
-ul {
-  width: 100%; }
+div {
+  align-content: center; }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-items: center;
   justify-content: center; }
 
-#imagenpesas {
-  height: 50px;
-  width: 50px;
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
-div {
-  align-content: center; }
+.menu {
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+  width: 100%; }
+  .menu ul {
+    width: 100%; }
+    .menu ul li {
+      display: inline-block;
+      text-decoration: none;
+      margin: 2rem; }
+      .menu ul li a {
+        text-decoration: none; }
 
 .containerplanes {
   padding-top: 100px; }
@@ -46,27 +49,30 @@ div {
   text-align: center;
   display: inline-flex;
   justify-content: space-around; }
+  .contenedorTarjeta .tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 10px;
+    border-width: 3px;
+    border-color: #7a47e7;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #619db1;
+    color: ghostwhite; }
+    .contenedorTarjeta .tarjeta:hover {
+      transition: all 1s;
+      transform: scale(1.2); }
+    .contenedorTarjeta .tarjeta img {
+      margin: 20px;
+      width: 90%; }
 
-.tarjeta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 350px;
-  margin: 10px;
-  border-width: 3px;
-  border-color: #7a47e7;
-  border-style: solid;
-  border-radius: 10px;
-  background-color: #619db1;
-  color: ghostwhite; }
-
-.tarjeta:hover {
-  transition: all 1s;
-  transform: scale(1.2); }
-
-.tarjeta img {
-  margin: 20px;
-  width: 90%; }
+#imagenpesas {
+  height: 50px;
+  width: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 .bajada {
   margin: 20px; }
@@ -87,8 +93,5 @@ div {
   display: flex;
   top: 0px; }
 
-footer {
-  color: midnightblue;
-  font-size: 20px;
-  text-align: center;
-  padding-top: 300px; }
+.formulario {
+  padding-top: 200px; }
