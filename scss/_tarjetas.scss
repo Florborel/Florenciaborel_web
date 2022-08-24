@@ -1,3 +1,14 @@
+@mixin tarjetas ($width_tarjeta, $margin_tarjeta, $border_widthtarjeta, $border_colortrajeta, $border_styletarjeta) {
+    width: $width_tarjeta;
+        margin: $margin_tarjeta;
+        border-width: $border_widthtarjeta;
+        border-color: $border_colortrajeta;
+        border-style: $border_styletarjeta;
+}
+
+
+
+
 .containerplanes{  
 
     padding-top: 100px;
@@ -8,15 +19,11 @@
         text-align: center;
         display: inline-flex;
         justify-content: space-around;
-        .tarjeta {
+        .tarjeta { 
+            @include tarjetas( 350px, 10px, 3px,#7a47e7, solid );
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 350px;
-            margin: 10px;
-            border-width: 3px;
-            border-color: #7a47e7;
-            border-style: solid;
             border-radius: 10px;
             background-color: #619db1;
             color:ghostwhite;
@@ -32,6 +39,4 @@
     }
     
     
-    
-  
     

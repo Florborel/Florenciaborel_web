@@ -3,16 +3,16 @@ body{
 }
 
 header{
+    @extend .estilobasico;
     display: inline-flex;
     justify-content: space-around;
-    align-items: center;
     background-color: aliceblue;
     width: 100%;
 
 }
 
 
-h1{ 
+h1 { 
     color: $colorsecundario;
     font-size: 30px;
     text-align: center;
@@ -24,8 +24,17 @@ div{
 }
 
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-items: center;
+  @extend .estilobasico;
     justify-content: center;
  
 }
+
+.estilobasico { 
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+
+}
+
+
+    
