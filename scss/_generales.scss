@@ -2,6 +2,11 @@ body{
     background-color:$colordefondo;
 }
 
+main{
+    width: 100%;
+    height: 100%;
+}
+
 header{
     @extend .estilobasico;
     display: inline-flex;

@@ -1,0 +1,89 @@
+
+#grilla{
+    display: grid;
+
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 580px 400px 400px 400px;
+    background-color: #bbedf4;
+    grid-template-areas: "headers headers headers"
+                         "tiposyoga1 tiposyoga2 tiposyoga3"
+                         "tiposyoga4 tiposyoga5 tiposyoga6"
+                         "beneficios beneficios beneficios";
+    justify-items: center;
+  
+    
+}
+
+#headers { 
+    grid-area: headers;
+    
+
+}
+
+#tiposyoga1{
+    grid-area: tiposyoga1;
+
+    
+
+}
+#tiposyoga2{
+    grid-area: tiposyoga2;
+  
+
+}
+
+#tiposyoga3{
+    grid-area: tiposyoga3;
+   
+
+}
+
+#tiposyoga4{
+    grid-area: tiposyoga4;
+
+
+}
+#tiposyoga5{
+    grid-area: tiposyoga5;
+ 
+
+}
+#tiposyoga6{
+    grid-area: tiposyoga6;
+
+
+}
+#beneficios{
+    grid-area: beneficios;
+
+}
+
+#imagenyoga1{
+
+    justify-items: center;
+   flex-direction: column;
+    display: flex;
+}
+
+#tituloyoga{
+    top: -100px;
+    left:10px;
+    color: #ecf3f4;
+    display: flex;
+    position: relative;
+    font-size: 45px;
+
+}
+
+.titulosyoga{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   justify-items: center;
+   align-items: center;
+   text-align:center;
+
+
+}
+
+.imagenesyoga{
+    height: 300px;
+}
