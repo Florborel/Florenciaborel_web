@@ -38,5 +38,32 @@
         }
     }
     
+    @media only screen and (max-width: 800px)
+{
+    .contenedorTarjeta {
+        text-align: center;
+        justify-content: space-around;
+        flex-direction: column;
+        
+        .tarjeta { 
+            @include tarjetas( 350px, 10px, 3px,#7a47e7, solid );
+
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            background-color: #619db1;
+            color:ghostwhite;
+            &:hover {
+                transition: all 1s;
+                transform: scale(1.2);
+              }
+              img {
+                margin: 20px;
+                width: 90%;
+            }
+        }
+
+    }
+}
     
     

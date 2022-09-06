@@ -66,11 +66,11 @@
 }
 
 #tituloyoga{
-    top: -100px;
-    left:10px;
+    top: 500px;
+    left: 120px;
     color: #ecf3f4;
     display: flex;
-    position: relative;
+    position: absolute;
     font-size: 45px;
 
 }
@@ -86,4 +86,61 @@
 
 .imagenesyoga{
     height: 300px;
+}
+
+
+@media only screen and (max-width: 700px)
+{
+    #grilla{
+        display: grid;
+    
+        grid-template-columns: 100%;
+        grid-template-rows: 580px 400px 400px 400px 400px 400px 400px 400px;
+        background-color: #bbedf4;
+        grid-template-areas: "headers"
+                             "tiposyoga1"
+                             "tiposyoga2"
+                            "tiposyoga3"
+                             "tiposyoga4"
+                             "tiposyoga5"
+                            "tiposyoga6"
+                             "beneficios";
+        justify-items: center;
+      
+        
+    }
+
+    #tituloyoga{
+        top: 500px;
+        left:10px;
+        color: #ecf3f4;
+        display: flex;
+        position: absolute;
+        font-size: 45px;
+    
+    }
+
+
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 700px)
+{
+
+#grilla{
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 580px 400px 400px 400px 400px;
+    background-color: #bbedf4;
+    grid-template-areas: "headers headers"
+                         "tiposyoga1 tiposyoga2" 
+                         "tiposyoga3 tiposyoga4"
+                          "tiposyoga5 tiposyoga6"
+                         "beneficios beneficios";
+    justify-items: center;
+  
+    
+
+}
 }
