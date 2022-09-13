@@ -1,0 +1,74 @@
+
+#titulofuncional{
+    top: 550px;
+    left: 120px;
+    color: #ecf3f4;
+    display: flex;
+    position: absolute;
+    font-size: 45px;
+    z-index: 1000;
+
+}
+.parrafofuncional{
+    display: inline-flex;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-left: 15px;
+
+   
+}
+
+.videofuncional{
+   text-align: center;
+   margin-top: 50px;
+
+}
+
+#beneficiosfuncional{
+    margin-top: 50px;
+    justify-content: center;
+    text-align:center;
+    
+}
+
+
+.beneficioslista{
+
+    text-align: left;
+}
+
+.videofuncional{
+    margin-top: 50;
+    justify-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 700px)
+{
+    
+      
+        
+
+    #titulofuncional{
+        top: 550px;
+        left:10px;
+        color: #ecf3f4;
+        display: flex;
+        position: absolute;
+        font-size: 45px;
+        z-index: 1000;
+    
+    }
+
+    .parrafofuncional{
+        display: inline-flex;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 100px;
+        margin-left: 15px;
+        margin-right: 15px;
+       
+    }
+
+
+}
