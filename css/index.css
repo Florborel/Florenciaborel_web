@@ -108,18 +108,30 @@ p {
 #Padre {
   height: 100px; }
 
-.titulo {
-  position: absolute;
-  display: flex;
-  color: #ecf3f4;
-  top: 550px;
-  width: 0px;
-  padding-left: 30px;
-  font-size: 50px; }
-
 .imagenTitulo {
   display: flex;
-  top: 0px; }
+  top: 0px;
+  width: 100%;
+  flex-direction: column; }
+
+@media only screen and (max-width: 700px) {
+  .titulo {
+    position: absolute;
+    color: #ecf3f4;
+    top: 180px;
+    width: 0px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 800; } }
+
+@media only screen and (min-width: 700px) {
+  .titulo {
+    position: absolute;
+    color: #ecf3f4;
+    top: 380px;
+    width: 0px;
+    padding-left: 30px;
+    font-size: 50px; } }
 
 .formulario {
   padding-top: 200px; }
@@ -204,12 +216,12 @@ p {
     justify-items: center; } }
 
 #titulofuncional {
-  top: 550px;
+  top: 500px;
   left: 120px;
   color: #ecf3f4;
   display: flex;
   position: absolute;
-  font-size: 45px;
+  font-size: 50px;
   z-index: 1000; }
 
 .parrafofuncional {
@@ -238,12 +250,12 @@ p {
 
 @media only screen and (max-width: 700px) {
   #titulofuncional {
-    top: 550px;
+    top: 150px;
     left: 10px;
     color: #ecf3f4;
     display: flex;
     position: absolute;
-    font-size: 45px;
+    font-size: 40px;
     z-index: 1000; }
   .parrafofuncional {
     display: inline-flex;
@@ -269,21 +281,15 @@ p {
   margin-left: 50px; }
 
 @media only screen and (max-width: 700px) {
+  .videopilates {
+    margin-top: 30px; }
   #titulopilates {
-    top: 400px;
-    left: 120px;
-    color: #ecf3f4;
-    display: flex;
-    position: absolute;
-    font-size: 45px;
-    z-index: 1000; }
-  #titulopilates {
-    top: 300px;
+    top: 200px;
     left: 10px;
     color: #ecf3f4;
     display: flex;
     position: absolute;
-    font-size: 45px;
+    font-size: 35px;
     z-index: 1000; }
   .parrafofuncional {
     display: inline-flex;
